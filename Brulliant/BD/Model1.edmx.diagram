@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ccbf1bfaa4b490fb378e02902dea5c5" Name="Diagram1">
+        <EntityTypeShape EntityType="BrullModel.Categories" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Manufacturers" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Order" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Pickups" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Role" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Statuses" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.Suppliers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrullModel.User" Width="1.5" PointX="8" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="BrullModel.FK_Product_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.FK_Product_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.FK_Order_Pickups" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.FK_Order_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.FK_Product_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="BrullModel.OrderProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Brulliant.Windows.WindowAddRedact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Brulliant.Windows"
+        mc:Ignorable="d"
+        Title="WindowAddRedact" Height="652" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Артикул" Margin="10 30 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="ArticleTB" Margin="10 0 10 0" Width="778"/>
+            <TextBlock Text="Название" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="NameTB" Margin="10 0 10 0"/>
+            <TextBlock Text="Цена" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="PriceTB" Margin="10 0 10 0"/>
+            <TextBlock Text="Максимальная скидка" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="MaxDiscountTB" Margin="10 0 10 0"/>
+            <TextBlock Text="Производитель" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <ComboBox Name="ManufacturerCB" Margin="10 0 10 0" DisplayMemberPath="Name"/>
+            <TextBlock Text="Поставщик" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <ComboBox Name="SupplierCB" Margin="10 0 10 0" DisplayMemberPath="Name"/>
+            <TextBlock Text="Категория товара" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <ComboBox Name="CategoryCB" Margin="10 0 10 0" DisplayMemberPath="Name"/>
+            <TextBlock Text="Скидка" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="DiscountTB" Margin="10 0 10 0"/>
+            <TextBlock Text="Количество" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="QuantityTB" Margin="10 0 10 0"/>
+            <TextBlock Text="Описание" Margin="10 20 10 0" FontFamily="Cooper Black"/>
+            <TextBox Name="DescriptionTB" Margin="10 0 10 20"/>
+            <Button Height="30" Margin="10 0 10 0" Content="Сохранить" FontSize="20" FontFamily="Cooper Black" Background="Blue" Foreground="White" Name="AddRedactButton" Click="AddRedactButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
